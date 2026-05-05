@@ -476,19 +476,7 @@ function GamesSection() {
             borderRadius: 12,
             alignItems: "flex-start",
           }}>
-            <span style={{ 
-              display: "inline-flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: 34,
-              height: 34,
-              fontSize: 24, 
-              lineHeight: 1,
-              letterSpacing: "-0.2em",
-              marginRight: "-4px",
-            }}>
-              {g.emoji}
-            </span>
+            <span style={{ fontSize: 24, lineHeight: 1, marginTop: 2 }}>{g.emoji}</span>
             <div>
               <p style={{ fontFamily: F.body, fontWeight: 700, fontSize: "0.95rem", color: C.ink, margin: 0 }}>
                 {g.name}
