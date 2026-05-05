@@ -70,7 +70,7 @@ const ME = {
       blurb: "a more 'me' way of showcasing my work and habilities",
       tags: ["html", "css", "professional"],
       note: "made it because i wanted to display my work in a more interesting way",
-      link: "gabrielajamhour.github.io ",
+      link: "https://gabrielajamhour.github.io ",
     },
     {
       name: "this site",
@@ -584,6 +584,23 @@ function ProjectsSection() {
               <p style={{ fontFamily: F.hand, fontSize: "0.88rem", color: C.muted, margin: "0 0 10px" }}>
                 → {p.note}
               </p>
+            )}
+            {p.link && p.link !== "#" && (
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "inline-block",
+                  fontFamily: F.mono,
+                  fontSize: "0.65rem",
+                  color: C.green,
+                  marginBottom: 10,
+                  textDecoration: "none",
+                }}
+              >
+                visit project ↗
+              </a>
             )}
             <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
               {p.tags.map((t) => <Tag key={t} label={t} />)}
