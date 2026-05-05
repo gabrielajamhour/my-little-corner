@@ -598,7 +598,8 @@ function ProjectsSection() {
                   fontFamily: F.mono,
                   fontSize: "0.65rem",
                   color: C.green,
-                  marginBottom: 10,
+                  marginTop: 10,
+                  marginBottom: 0,
                   textDecoration: "none",
                 }}
               >
