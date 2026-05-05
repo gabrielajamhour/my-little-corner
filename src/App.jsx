@@ -10,7 +10,6 @@ import { useState, useEffect } from "react";
 const ME = {
   name: "gabriela",
   tagline: "cs student · crafter · cozy game enthusiast",
-  location: "valencia 🌿",
   intro: "i make things with code and thread. i like understanding how stuff works and how it feels. this is my little internet home.",
 
   // the "right now" strip at the top
@@ -277,13 +276,6 @@ function Hero() {
         maxWidth: 520,
       }}>
         {ME.tagline}
-      </p>
-      <p style={{
-        fontFamily: F.hand,
-        fontSize: "0.95rem",
-        color: C.faint,
-      }}>
-        📍 {ME.location}
       </p>
       <p style={{
         fontFamily: F.body,
@@ -805,7 +797,7 @@ function Nav() {
 // ─────────────────────────────────────────────────────────
 //  ROOT APP
 // ─────────────────────────────────────────────────────────
-export default function PersonalSite() {
+export default function App() {
   useEffect(() => {
     // load Google Fonts
     if (!document.getElementById("ps-fonts")) {
@@ -912,7 +904,7 @@ export default function PersonalSite() {
             made with 🧵 and too many browser tabs
           </p>
           <p style={{ fontFamily: F.mono, fontSize: "0.62rem", color: C.faint }}>
-            {ME.name} · {new Date().getFullYear()} · valencia
+            {ME.name} · {new Date().getFullYear()}
           </p>
         </footer>
 
