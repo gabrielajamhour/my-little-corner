@@ -281,7 +281,7 @@ function Hero() {
         maxWidth: 480,
         lineHeight: 1.5,
         margin: "18px auto 6px",
-        paddingTop: 0,
+        paddingTop: 12,
         borderTop: `1px solid ${C.faint}`,
       }}>
         {ME.intro}
