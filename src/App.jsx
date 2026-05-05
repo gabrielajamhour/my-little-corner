@@ -35,15 +35,15 @@ const ME = {
   making: [
     { title: "mario magnet set",               type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
     { title: "star wars magnet set",           type: "cross-stitch", done: true, note: "a gift for a friend" },
-    { title: "this website",                   type: "code",         done: false, note: "always in progress" },
     { title: "supermarket pricing dashboard",  type: "code",         done: false,  note: "almost done i hope" },
+    { title: "this website",                   type: "code",         done: false, note: "always in progress" },
   ],
 
   // games i return to, with an honest note
   games: [
-    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode. year 4, still not done." },
-    { name: "Minecraft",         emoji: "🧱", note: "i organize chests until 3am and call it productive" },
-    { name: "The Sims 4",        emoji: "🏠", note: "i spend 90% of the time in create-a-sim" },
+    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode" },
+    { name: "Minecraft",         emoji: "🧱", note: "really just love doing way too big projects for hours on end" },
+    { name: "The Sims 2",        emoji: "🏠", note: "a way of calming my controlling needs" },
   ],
 
   // books — status: "read" | "reading" | "want"
@@ -92,12 +92,12 @@ const ME = {
 
   // short things i keep coming back to — beliefs, reminders, notes to self
   notes: [
-    "make things that feel good to exist.",
-    "small and finished > big and theoretical.",
-    "clarity is a form of respect.",
-    "it's okay to build things just for yourself.",
-    "the way something feels is part of what it is.",
-    "curiosity > ambition, most of the time.",
+    "in the right eyes you will be art",
+    "time will pass no matter how you spend it",
+    "only put energy into what feels right, and then things will align",
+    "it's okay to build things just for yourself",
+    "don't lose this moment searching for another",
+    "but we cannot simply sit and stare at out wounds forever",
   ],
 
   // guestbook entries (static — you can make this dynamic later with a backend)
@@ -474,8 +474,8 @@ function GamesSection() {
             display: "flex",
             gap: 14,
             padding: "14px 18px",
-            background: C.lavenderSoft,
-            border: `1.5px solid ${C.lavender}`,
+            background: C.blue,
+            border: `1.5px solid ${C.sky}`,
             borderRadius: 12,
             alignItems: "flex-start",
           }}>
@@ -509,7 +509,7 @@ function GamesSection() {
 function BooksSection() {
   // colored spine indicator by status
   const spineColor = (s) =>
-    s === "reading" ? C.green : s === "want" ? C.lavender : C.faint;
+    s === "reading" ? C.yellow : s === "want" ? C.lavender : C.green;
 
   return (
     <section id="books">
@@ -572,7 +572,7 @@ function ProjectsSection() {
       <SHead icon="🗂️" title="project shelf" sub="things i built" />
       <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         {ME.projects.map((p, i) => (
-          <Card key={i} style={{ borderLeft: `3px solid ${C.green}`, borderRadius: "0 14px 14px 0" }}>
+          <Card key={i} style={{ borderLeft: `3px solid ${C.yellow}`, borderRadius: "0 14px 14px 0" }}>
             <p style={{ fontFamily: F.display, fontSize: "1.1rem", fontWeight: 600, color: C.ink, margin: "0 0 6px" }}>
               {p.name}
             </p>
