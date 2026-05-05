@@ -602,10 +602,10 @@ function ObsessionsSection() {
     <section id="obsessions">
       <SHead icon="✨" title="current obsessions" sub="things taking up mental space lately" />
       <div style={{
-        display: "flex",
+        display: "grid",
         gridTemplateColumns: "repeat(auto-fill, minmax(220px, 220px))",
         justifyContent: "center",
-        alignItems: "center",
+        justifyItems: "center",
         gap: 12,
       }}>
         {ME.obsessions.map((o, i) => (
