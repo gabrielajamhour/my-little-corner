@@ -476,7 +476,17 @@ function GamesSection() {
             borderRadius: 12,
             alignItems: "flex-start",
           }}>
-            <span style={{ fontSize: 24, lineHeight: 1, marginTop: 2 }}>{g.emoji}</span>
+            <span style={{ 
+              display: "inline-flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: 34,
+              height: 34,
+              fontSize: 24, 
+              lineHeight: 1, 
+            }}>
+              {g.emoji}
+            </span>
             <div>
               <p style={{ fontFamily: F.body, fontWeight: 700, fontSize: "0.95rem", color: C.ink, margin: 0 }}>
                 {g.name}
@@ -588,9 +598,9 @@ function ObsessionsSection() {
       <SHead icon="✨" title="current obsessions" sub="things taking up mental space lately" />
       <div style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+        gridTemplateColumns: "repeat(auto-fill, minmax(220px, 220px))",
+        justifyContent: "center",
         gap: 12,
-        justifyItems: "center",
       }}>
         {ME.obsessions.map((o, i) => (
           <div key={i} style={{
@@ -747,7 +757,10 @@ export default function App() {
       ].join("");
       document.head.appendChild(link);
     }
-    document.body.style.background = C.bg;
+    document.body.style.background = "url('/journal-bg.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundPosition = "center";
+    document.body.style.backgroundAttachment = "fixed";
     document.body.style.margin = "0";
     document.body.style.padding = "0";
   }, []);
