@@ -231,6 +231,7 @@ const Divider = () => (
     border: "none",
     borderTop: `1.5px dashed ${C.faint}`,
     margin: "3rem 0",
+    ...style,
   }} />
 );
 
@@ -798,7 +799,7 @@ export default function App() {
         {/* ── hero ─────────────────────────── */}
         <Hero />
 
-        <Divider />
+        <Divider style={{ margin: "1.2rem 0 2rem" }} />
 
         {/* ── now panel ────────────────────── */}
         <NowPanel />
