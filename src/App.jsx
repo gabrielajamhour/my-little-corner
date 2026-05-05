@@ -33,20 +33,17 @@ const ME = {
 
   // crafts, little projects, things i'm making physically or digitally
   making: [
-    { title: "",         type: "cross-stitch", done: true,  note: "made it during a comfort show rewatch" },
-    { title: "",                 type: "cross-stitch", done: false, note: "still figuring out the pattern" },
+    { title: "mario magnet set",               type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
     { title: "star wars magnet set",           type: "cross-stitch", done: true, note: "a gift for a friend" },
     { title: "this website",                   type: "code",         done: false, note: "always in progress" },
-    { title: "supermarket pricing dashboard",  type: "code",         done: false,  note: "perfecting it" },
+    { title: "supermarket pricing dashboard",  type: "code",         done: false,  note: "almost done" },
   ],
 
   // games i return to, with an honest note
   games: [
-    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode. year 4, still not done." },
+    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode" },
     { name: "Minecraft",         emoji: "🧱", note: "i organize chests until 3am and call it productive" },
-    { name: "The Sims 4",        emoji: "🏠", note: "i spend 90% of the time in create-a-sim" },
-    { name: "",   emoji: "", note: "island is permanently in autumn vibes" },
-    { name: "",      emoji: "", note: "finished it in 90 min and felt peaceful for a week" },
+    { name: "The Sims 4",        emoji: "🏠", note: "it calms my controlling needs" },
   ],
 
   // books — status: "read" | "reading" | "want"
@@ -105,19 +102,16 @@ const ME = {
 
   // guestbook entries (static — you can make this dynamic later with a backend)
   guestbook: [
-    { name: "a friend",          msg: "love your little corner of the internet 🌿",                date: "may 2025" },
-    { name: "internet stranger", msg: "found this randomly and stayed for way too long",           date: "apr 2025" },
-    { name: "discord mutual",    msg: "the mushroom bookmark cross-stitch is SO cute omg",         date: "apr 2025" },
-    { name: "someone from uni",  msg: "i didn't know you made websites this cozy, very you though",date: "mar 2025" },
+    { name: "",          msg: "",                date: "may 2026" },
   ],
 
   // links out — your other internet homes
   links: [
-    { label: "github",     emoji: "🐙",  url: "#" },
-    { label: "spotify",    emoji: "🎵",  url: "#" },
-    { label: "skoob",      emoji: "📚",  url: "#" },
+    { label: "github",     emoji: "🐙",  url: "https://github.com/gabrielajamhour" },
+    { label: "spotify",    emoji: "🎵",  url: "https://open.spotify.com/user/gabijamhour?si=4a0ef5477aff4d9e" },
+    { label: "skoob",      emoji: "📚",  url: "https://skoob.com.br/profile/6919915-gabi" },
     { label: "are.na",     emoji: "🗂️",  url: "#" },
-    { label: "instagram",  emoji: "📸",  url: "#" },
+    { label: "instagram",  emoji: "📸",  url: "https://www.instagram.com/gabijamhour?igsh=MTlydXl0Ymt5aWl2bw%3D%3D&utm_source=qr" },
   ],
 };
 
