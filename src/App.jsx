@@ -590,6 +590,7 @@ function ObsessionsSection() {
         display: "grid",
         gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
         gap: 12,
+        justifyContent: "center",
       }}>
         {ME.obsessions.map((o, i) => (
           <div key={i} style={{
@@ -635,11 +636,12 @@ function NotesSection() {
         {ME.notes.map((note, i) => {
           const p = palettes[i % palettes.length];
           return (
-            <Sticky key={i} color={p.color} border={p.border} rotate={rotations[i % rotations.length]}>
+            <Sticky key={i} color={p.color} style={{ display: "flex", justifyContent: "center", alignItems: "center" }} border={p.border} rotate={rotations[i % rotations.length]}>
               <p style={{
                 fontFamily: F.hand,
                 fontSize: "1.08rem",
                 color: C.ink,
+                textAlign: "center",
                 margin: 0,
                 lineHeight: 1.5,
               }}>
@@ -677,7 +679,7 @@ function GuestbookSection() {
           </Card>
         ))}
         <p style={{ fontFamily: F.hand, fontSize: "0.9rem", color: C.faint, margin: "4px 0 0" }}>
-          (want to leave a note? reach out somewhere in the portals below ↓)
+          (want to leave a note? reach out somewhere in the portals)
         </p>
       </div>
     </section>
@@ -689,7 +691,7 @@ function PortalsSection() {
   return (
     <section id="portals">
       <SHead icon="🔗" title="portals" sub="other places i live on the internet" />
-      <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+      <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center"}}>
         {ME.links.map((l, i) => (
           <a key={i} href={l.url}
             style={{
