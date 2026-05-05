@@ -202,7 +202,7 @@ const Tag = ({ label }) => (
 
 // Section header with an emoji and optional handwritten subtitle
 const SHead = ({ icon, title, sub }) => (
-  <div style={{ marginBottom: "1.4rem" }}>
+  <div style={{ marginBottom: "1.4rem", textAlign: "center" }}>
     <div style={{ fontSize: 22, lineHeight: 1, marginBottom: 6 }}>{icon}</div>
     <h2 style={{
       fontFamily: F.display,
@@ -311,6 +311,7 @@ function NowPanel() {
         <p style={{
           fontFamily: F.mono,
           fontSize: "0.65rem",
+          textAlign: "center",
           color: C.sage,
           letterSpacing: "0.1em",
           textTransform: "uppercase",
