@@ -41,9 +41,11 @@ const ME = {
 
   // games i return to, with an honest note
   games: [
-    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode" },
+    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode. year 4, still not done." },
     { name: "Minecraft",         emoji: "🧱", note: "i organize chests until 3am and call it productive" },
-    { name: "The Sims 4",        emoji: "🏠", note: "it calms my controlling needs" },
+    { name: "The Sims 4",        emoji: "🏠", note: "i spend 90% of the time in create-a-sim" },
+    { name: "Animal Crossing",   emoji: "🍂", note: "island is permanently in autumn vibes" },
+    { name: "A Short Hike",      emoji: "🏔️", note: "finished it in 90 min and felt peaceful for a week" },
   ],
 
   // books — status: "read" | "reading" | "want"
