@@ -41,11 +41,9 @@ and towards something more:
 
 ## 🌱 future ideas
 
-* make sections editable (like a small CMS)
+* make a separate page for each section
 * add music integration (Spotify)
 * add a “guestbook” or notes system
 * experiment more with visuals and interaction
 
----
-
-this is an evolving space :)
+> **_NOTE:_** this is an evolving space :)
