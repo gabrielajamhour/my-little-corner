@@ -226,7 +226,7 @@ const SHead = ({ icon, title, sub }) => (
 );
 
 // A thin dashed horizontal rule between sections
-const Divider = () => (
+const Divider = ({ style = {} }) => (
   <hr style={{
     border: "none",
     borderTop: `1.5px dashed ${C.faint}`,
