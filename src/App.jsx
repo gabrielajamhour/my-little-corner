@@ -585,6 +585,9 @@ function ProjectsSection() {
                 → {p.note}
               </p>
             )}
+            <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+              {p.tags.map((t) => <Tag key={t} label={t} />)}
+            </div>
             {p.link && p.link !== "#" && (
               <a
                 href={p.link}
@@ -602,9 +605,6 @@ function ProjectsSection() {
                 visit project ↗
               </a>
             )}
-            <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-              {p.tags.map((t) => <Tag key={t} label={t} />)}
-            </div>
           </Card>
         ))}
       </div>
