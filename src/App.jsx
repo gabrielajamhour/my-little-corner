@@ -242,7 +242,7 @@ const Divider = () => (
 // ── header / hero ────────────────────────────────────────
 function Hero() {
   return (
-    <header style={{ padding: "3rem 0 2rem", textAlign: "center" }}>
+    <header style={{ padding: "2rem 0 1.2rem", textAlign: "center" }}>
       <p style={{
         fontFamily: F.hand,
         fontSize: "1.15rem",
@@ -279,8 +279,8 @@ function Hero() {
         textAlign: "center",
         maxWidth: 480,
         lineHeight: 1.7,
-        margin: "16px auto 0",
-        paddingTop: 16,
+        margin: "12px auto 0",
+        paddingTop: 0,
         borderTop: `1px solid ${C.faint}`,
       }}>
         {ME.intro}
