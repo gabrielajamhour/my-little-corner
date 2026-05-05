@@ -23,12 +23,12 @@ const ME = {
 
   // songs + a small note on why each matters
   music: [
-    { title: "", artist: "", note: "always comes back when i need to feel something big" },
-    { title: "", artist: "", note: "for slow mornings" },
-    { title: "", artist: "", note: "growth that doesn't announce itself" },
-    { title: "", artist: "", note: "that riff :((" },
-    { title: "", artist: "", note: "harmonies that actually ache" },
-    { title: "", artist: "", note: "makes me feel things i can't name" },
+    { title: "Último Romance", artist: "Los Hermanos", note: "touches my heart in a special way" },
+    { title: "Lilás", artist: "Terno Rei", note: "actually listening to it while typing this" },
+    { title: "Ontem", artist: "Jovem Dionisio", note: "discovered it from tiktok and been obsessed ever since" },
+    { title: "Duro Igual Concreto", artist: "1Kilo", note: "singin' with my eyes closed" },
+    { title: "Lisboa", artist: "ANAVITÓRIA and Lenine", note: "can't contain my tears every single time" },
+    { title: "Sparks", artist: "Coldplay", note: "surprisingly the only international one" },
   ],
 
   // crafts, little projects, things i'm making physically or digitally
@@ -36,7 +36,7 @@ const ME = {
     { title: "mario magnet set",               type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
     { title: "star wars magnet set",           type: "cross-stitch", done: true, note: "a gift for a friend" },
     { title: "this website",                   type: "code",         done: false, note: "always in progress" },
-    { title: "supermarket pricing dashboard",  type: "code",         done: false,  note: "almost done" },
+    { title: "supermarket pricing dashboard",  type: "code",         done: false,  note: "almost done i hope" },
   ],
 
   // games i return to, with an honest note
@@ -44,35 +44,33 @@ const ME = {
     { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode. year 4, still not done." },
     { name: "Minecraft",         emoji: "🧱", note: "i organize chests until 3am and call it productive" },
     { name: "The Sims 4",        emoji: "🏠", note: "i spend 90% of the time in create-a-sim" },
-    { name: "Animal Crossing",   emoji: "🍂", note: "island is permanently in autumn vibes" },
-    { name: "A Short Hike",      emoji: "🏔️", note: "finished it in 90 min and felt peaceful for a week" },
   ],
 
   // books — status: "read" | "reading" | "want"
   books: [
-    { title: "Normal People",       author: "Sally Rooney",      status: "read",    note: "left a mark i didn't expect" },
-    { title: "A Little Life",       author: "Hanya Yanagihara",  status: "reading", note: "heavy but i can't put it down" },
-    { title: "Pachinko",            author: "Min Jin Lee",        status: "read",    note: "multigenerational and devastating" },
-    { title: "Piranesi",            author: "Susanna Clarke",     status: "want",    note: "sounds like my kind of strange" },
-    { title: "The Midnight Library",author: "Matt Haig",          status: "read",    note: "needed it at exactly that moment" },
-    { title: "Braiding Sweetgrass", author: "Robin Wall Kimmerer",status: "want",    note: "been on my list forever" },
+    { title: "The Enigma of Room 622",       author: "Joël Dicker",          status: "read",       note: "i'm very obsessed with this author" },
+    { title: "A Little Life",                author: "Hanya Yanagihara",     status: "want",       note: "been on my list forever" },
+    { title: "1984",                         author: "George Orwell",        status: "read",       note: "couldn't stop thinking about it for weeks" },
+    { title: "The Psychology of Dexter",     author: "Bella DePaulo",        status: "reading",    note: "trying to learn more about psychology" },
+    { title: "The Midnight Library",         author: "Matt Haig",            status: "read",       note: "really struck with me" },
+    { title: "The Only One Left",            author: "Riley Sager",          status: "reading",    note: "anxiously waiting for the plot twist" },
   ],
 
   // code/personal projects — framed as things, not portfolio entries
   projects: [
     {
-      name: "data dashboard",
-      blurb: "turns messy spreadsheets into something a person can actually read at a glance",
-      tags: ["react", "data", "design"],
-      note: "built it because i needed it. use it basically every day.",
-      link: "#",
+      name: "supermarket pricing dashboard",
+      blurb: "taking basic products directly from the supermarkets' websites and turning into visual and valuable data",
+      tags: ["python", "panda", "data"],
+      note: "an extension from a random class presentation i did a while ago",
+      link: "https://github.com/gabrielajamhour/Supermarket-Pricing-Dashboard",
     },
     {
-      name: "stitch tracker",
-      blurb: "a tiny app to track cross-stitch projects — threads, patterns, progress",
-      tags: ["react", "craft", "personal"],
-      note: "made it because i kept forgetting what dmc colors i used",
-      link: "#",
+      name: "my web portfolio",
+      blurb: "a more 'me' way of showcasing my work and habilities",
+      tags: ["html", "css", "professional"],
+      note: "made it because i wanted to display my work in a more interesting way",
+      link: "gabrielajamhour.github.io ",
     },
     {
       name: "this site",
@@ -85,11 +83,11 @@ const ME = {
 
   // things occupying mental space lately
   obsessions: [
-    { thing: "information design",       note: "how visual structure changes what you can understand" },
-    { thing: "the mind of a psychopath", note: "" },
-    { thing: "tiny handmade objects",    note: "the feeling of making something you can hold" },
+    { thing: "the mind of a psychopath", note: "have been watching waaay too much dexter lately" },
+    { thing: "tiny handmade objects",    note: "the feeling of holding something of your own creation" },
     { thing: "old personal websites",    note: "when the internet felt like people's actual homes" },
     { thing: "cozy game world-building", note: "the peace of organizing fictional spaces" },
+    { thing: "the color green",          note: "not really 'lately', i would say maybe always" },
   ],
 
   // short things i keep coming back to — beliefs, reminders, notes to self
