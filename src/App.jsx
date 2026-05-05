@@ -471,7 +471,7 @@ function GamesSection() {
         {ME.games.map((g, i) => (
           <div key={i} style={{
             display: "flex",
-            gap: 8,
+            gap: 14,
             padding: "14px 18px",
             background: C.lavenderSoft,
             border: `1.5px solid ${C.lavender}`,
