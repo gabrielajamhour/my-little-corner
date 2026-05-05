@@ -757,7 +757,7 @@ export default function App() {
       ].join("");
       document.head.appendChild(link);
     }
-    document.body.style.background = "url('https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?w=1200&h=1200&fit=crop')";
+    document.body.style.background = "linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://images.unsplash.com/photo-1631519952398-5b1d76b946e8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
     document.body.style.backgroundAttachment = "fixed";
@@ -778,7 +778,14 @@ export default function App() {
         }
       `}</style>
 
-      <main style={{ maxWidth: 900, margin: "0 auto", padding: "0 24px 80px" }}>
+      <main style={{ 
+        maxWidth: 900, 
+        margin: "40px auto", 
+        padding: "0 24px 80px",
+        background: "rgba(248, 244, 238, 0.95)",
+        borderRadius: 20,
+        boxShadow: "0 10px 40px rgba(0,0,0,0.1)",
+      }}>
 
         {/* ── hero ─────────────────────────── */}
         <Hero />
