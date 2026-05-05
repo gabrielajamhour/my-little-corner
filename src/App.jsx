@@ -757,7 +757,7 @@ export default function App() {
       ].join("");
       document.head.appendChild(link);
     }
-    document.body.style.background = "url('/journal-bg.jpg')";
+    document.body.style.background = "url('https://unsplash.com/pt-br/fotografias/um-pedaco-de-papel-com-palavras-escritas-nele-hYaAxItJGoM')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
     document.body.style.backgroundAttachment = "fixed";
