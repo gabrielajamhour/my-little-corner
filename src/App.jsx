@@ -436,10 +436,11 @@ function MakingSection() {
                 textTransform: "uppercase",
                 letterSpacing: "0.07em",
                 margin: "0 0 6px",
+                textAlign: "center",
               }}>
                 {item.type}
               </p>
-              <p style={{ fontFamily: F.body, fontWeight: 700, fontSize: "0.88rem", color: C.ink, margin: "0 0 5px" }}>
+              <p style={{ fontFamily: F.body, fontWeight: 700, fontSize: "0.88rem", color: C.ink, margin: "0 0 5px", textAlign: "center" }}>
                 {item.title}
               </p>
               <p style={{
@@ -447,11 +448,12 @@ function MakingSection() {
                 fontSize: "0.88rem",
                 color: item.done ? C.green : C.yellow,
                 margin: "0 0 6px",
+                textAlign: "center",
               }}>
                 {item.done ? "✓ done" : "in progress..."}
               </p>
               {item.note && (
-                <p style={{ fontFamily: F.hand, fontSize: "0.82rem", color: C.muted, margin: 0, lineHeight: 1.4 }}>
+                <p style={{ fontFamily: F.hand, fontSize: "0.82rem", color: C.muted, margin: 0, lineHeight: 1.4, textAlign: "center" }}>
                   {item.note}
                 </p>
               )}
@@ -612,10 +614,10 @@ function ObsessionsSection() {
             borderRadius: 12,
             padding: "16px 18px",
           }}>
-            <p style={{ fontFamily: F.body, fontWeight: 700, fontSize: "0.88rem", color: C.ink, margin: "0 0 6px" }}>
+            <p style={{ fontFamily: F.body, fontWeight: 700, fontSize: "0.88rem", color: C.ink, margin: "0 0 6px", textAlign: "center" }}>
               {o.thing}
             </p>
-            <p style={{ fontFamily: F.hand, fontSize: "0.9rem", color: C.muted, margin: 0, lineHeight: 1.45 }}>
+            <p style={{ fontFamily: F.hand, fontSize: "0.9rem", color: C.muted, margin: 0, lineHeight: 1.45, textAlign: "center" }}>
               {o.note}
             </p>
           </div>
@@ -691,7 +693,7 @@ function GuestbookSection() {
             </div>
           </Card>
         ))}
-        <p style={{ fontFamily: F.hand, fontSize: "0.9rem", color: C.faint, margin: "4px 0 0" }}>
+        <p style={{ fontFamily: F.hand, fontSize: "0.9rem", color: C.faint, margin: "4px 0 0", textAlign: "center" }}>
           (want to leave a note? reach out somewhere in the portals)
         </p>
       </div>
