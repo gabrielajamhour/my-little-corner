@@ -272,7 +272,7 @@ function Hero() {
         fontSize: "1.05rem",
         color: C.muted,
         textAlign: "center",
-        margin: "0 0 8px",
+        margin: "0 auto 8px",
         lineHeight: 1.6,
         maxWidth: 520,
       }}>
@@ -285,7 +285,7 @@ function Hero() {
         textAlign: "center",
         maxWidth: 480,
         lineHeight: 1.7,
-        marginTop: 16,
+        margin: "16px auto 0",
         paddingTop: 16,
         borderTop: `1px solid ${C.faint}`,
       }}>
