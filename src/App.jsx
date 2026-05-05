@@ -731,71 +731,6 @@ function PortalsSection() {
   );
 }
 
-// ── sticky nav ───────────────────────────────────────────
-function Nav() {
-  const items = [
-    { label: "now",         href: "#now"        },
-    { label: "music 🎵",   href: "#music"      },
-    { label: "making 🧵",  href: "#making"     },
-    { label: "games 🎮",   href: "#games"      },
-    { label: "books 📚",   href: "#books"      },
-    { label: "projects",   href: "#projects"   },
-    { label: "obsessions", href: "#obsessions" },
-    { label: "notes 📝",   href: "#notes"      },
-    { label: "portals 🔗", href: "#portals"    },
-  ];
-  return (
-    <nav style={{
-      position: "sticky",
-      top: 0,
-      zIndex: 20,
-      background: "rgba(248, 244, 238, 0.88)",
-      backdropFilter: "blur(10px)",
-      WebkitBackdropFilter: "blur(10px)",
-      borderBottom: `1.5px solid ${C.faint}`,
-      padding: "8px 0",
-    }}>
-      <div style={{
-        maxWidth: 900,
-        margin: "0 auto",
-        padding: "0 24px",
-        display: "flex",
-        gap: 2,
-        overflowX: "auto",
-        scrollbarWidth: "none",
-        msOverflowStyle: "none",
-      }}>
-        {items.map((item) => (
-          <a key={item.label} href={item.href}
-            style={{
-              fontFamily: F.body,
-              fontSize: "0.8rem",
-              fontWeight: 600,
-              color: C.muted,
-              textDecoration: "none",
-              padding: "5px 11px",
-              borderRadius: 20,
-              whiteSpace: "nowrap",
-              transition: "background 0.15s, color 0.15s",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = C.greenSoft;
-              e.currentTarget.style.color = C.green;
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = "transparent";
-              e.currentTarget.style.color = C.muted;
-            }}
-          >
-            {item.label}
-          </a>
-        ))}
-      </div>
-    </nav>
-  );
-}
-
-
 // ─────────────────────────────────────────────────────────
 //  ROOT APP
 // ─────────────────────────────────────────────────────────
@@ -827,15 +762,12 @@ export default function App() {
       <style>{`
         html { scroll-behavior: smooth; }
         * { box-sizing: border-box; }
-        nav::-webkit-scrollbar { display: none; }
 
         /* two-column grid collapses to one on narrow screens */
         @media (max-width: 680px) {
           .two-col { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
         }
       `}</style>
-
-      <Nav />
 
       <main style={{ maxWidth: 900, margin: "0 auto", padding: "0 24px 80px" }}>
 
