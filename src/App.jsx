@@ -602,14 +602,18 @@ function ObsessionsSection() {
     <section id="obsessions">
       <SHead icon="✨" title="current obsessions" sub="things taking up mental space lately" />
       <div style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(220px, 220px))",
+        display: "flex",
+        flexWrap: "wrap",
         justifyContent: "center",
-        justifyItems: "center",
         gap: 12,
       }}>
         {ME.obsessions.map((o, i) => (
           <div key={i} style={{
+            flex: "0 0 220px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            minHeight: 150,
             background: C.roseSoft,
             border: `1.5px solid ${C.rose}`,
             borderRadius: 12,
