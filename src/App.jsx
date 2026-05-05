@@ -480,10 +480,10 @@ function GamesSection() {
               display: "inline-flex",
               justifyContent: "center",
               alignItems: "center",
-              width: 34,
+              width: 28,
               height: 34,
               fontSize: 24, 
-              lineHeight: 1, 
+              lineHeight: 1,
             }}>
               {g.emoji}
             </span>
