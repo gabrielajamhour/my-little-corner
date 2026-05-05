@@ -9,13 +9,13 @@ import { useState, useEffect } from "react";
 // ─────────────────────────────────────────────────────────
 const ME = {
   name: "gabriela",
-  tagline: "cs student · crafter · cozy game enthusiast",
+  tagline: "cs and bba student · crafter · cozy game enthusiast",
   intro: "i make things with code and thread. i like understanding how stuff works and how it feels. this is my little internet home.",
 
   // the "right now" strip at the top
   now: {
     feeling: "somewhere between inspired and overwhelmed, mostly in a good way",
-    listening: "jovem dionísio on loop",
+    listening: "jovem dionisio on loop",
     playing: "stardew valley (year 7, perfect farm!)",
     reading: "the psychology of dexter — been obsessed lately",
     making: "a mario magnet set!",
@@ -102,7 +102,7 @@ const ME = {
 
   // guestbook entries (static — you can make this dynamic later with a backend)
   guestbook: [
-    { name: "",          msg: "",                date: "may 2026" },
+    //{ name: "",          msg: "",                date: "may 2026" },
   ],
 
   // links out — your other internet homes
@@ -442,10 +442,10 @@ function MakingSection() {
               <p style={{
                 fontFamily: F.hand,
                 fontSize: "0.88rem",
-                color: item.done ? C.green : C.muted,
+                color: item.done ? C.green : C.yellow,
                 margin: "0 0 6px",
               }}>
-                {item.done ? "✓ done" : "in progress"}
+                {item.done ? "✓ done" : "in progress..."}
               </p>
               {item.note && (
                 <p style={{ fontFamily: F.hand, fontSize: "0.82rem", color: C.muted, margin: 0, lineHeight: 1.4 }}>
@@ -469,7 +469,7 @@ function GamesSection() {
         {ME.games.map((g, i) => (
           <div key={i} style={{
             display: "flex",
-            gap: 14,
+            gap: 8,
             padding: "14px 18px",
             background: C.lavenderSoft,
             border: `1.5px solid ${C.lavender}`,
@@ -556,7 +556,7 @@ function BooksSection() {
 function ProjectsSection() {
   return (
     <section id="projects">
-      <SHead icon="🗂️" title="project shelf" sub="things i built because i needed them" />
+      <SHead icon="🗂️" title="project shelf" sub="things i built" />
       <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         {ME.projects.map((p, i) => (
           <Card key={i} style={{ borderLeft: `3px solid ${C.green}`, borderRadius: "0 14px 14px 0" }}>
@@ -590,7 +590,7 @@ function ObsessionsSection() {
         display: "grid",
         gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
         gap: 12,
-        justifyContent: "center",
+        justifyItems: "center",
       }}>
         {ME.obsessions.map((o, i) => (
           <div key={i} style={{
