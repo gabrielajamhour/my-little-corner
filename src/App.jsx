@@ -24,7 +24,7 @@ const ME = {
   // songs + a small note on why each matters
   music: [
     { title: "Último Romance", artist: "Los Hermanos", note: "touches my heart\nin a special way" },
-    { title: "Lilás", artist: "Terno Rei", note: "actually listening to it while typing this" },
+    { title: "Lilás", artist: "Terno Rei", note: "actually listening to it\nwhile typing this" },
     { title: "Ontem", artist: "Jovem Dionisio", note: "discovered it from tiktok and been obsessed ever since" },
     { title: "Duro Igual Concreto", artist: "1Kilo", note: "singin' with my eyes closed" },
     { title: "Lisboa", artist: "ANAVITÓRIA and Lenine", note: "can't contain my tears\nevery single time" },
