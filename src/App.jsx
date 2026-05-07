@@ -388,7 +388,7 @@ function MusicSection() {
               color: C.muted,
               margin: 0,
               textAlign: "right",
-              maxWidth: 150,
+              maxWidth: 180,
               lineHeight: 1.3,
             }}>
               {t.note}
