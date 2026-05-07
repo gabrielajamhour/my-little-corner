@@ -33,27 +33,27 @@ const ME = {
 
   // crafts, little projects, things i'm making physically or digitally
   making: [
-    { title: "mario magnet set",               type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
-    { title: "star wars magnet set",           type: "cross-stitch", done: true, note: "a gift for a friend" },
-    { title: "supermarket pricing dashboard",  type: "code",         done: false,  note: "almost done i hope" },
-    { title: "this website",                   type: "code",         done: false, note: "always in progress" },
+    { title: "mario magnet set", type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
+    { title: "star wars magnet set", type: "cross-stitch", done: true, note: "a gift for a friend" },
+    { title: "supermarket pricing dashboard", type: "code", done: false, note: "almost done i hope" },
+    { title: "this website", type: "code", done: false, note: "always in progress" },
   ],
 
   // games i return to, with an honest note
   games: [
-    { name: "Stardew Valley",    emoji: "🌾", note: "my brain's default rest mode" },
-    { name: "Minecraft",         emoji: "🧱", note: "really just love doing way too big projects for hours on end" },
-    { name: "The Sims 2",        emoji: "🏠", note: "a way of calming my controlling needs" },
+    { name: "Stardew Valley", emoji: "🌾", note: "my brain's default rest mode" },
+    { name: "Minecraft", emoji: "🧱", note: "really just love doing way too big projects for hours on end" },
+    { name: "The Sims 2", emoji: "🏠", note: "a way of calming my controlling needs" },
   ],
 
   // books — status: "read" | "reading" | "want"
   books: [
-    { title: "The Enigma of Room 622",       author: "Joël Dicker",          status: "read",       note: "i'm very obsessed with this author" },
-    { title: "A Little Life",                author: "Hanya Yanagihara",     status: "want",       note: "been on my list forever" },
-    { title: "1984",                         author: "George Orwell",        status: "read",       note: "couldn't stop thinking about it for weeks" },
-    { title: "The Psychology of Dexter",     author: "Bella DePaulo",        status: "reading",    note: "trying to learn more about psychology" },
-    { title: "The Midnight Library",         author: "Matt Haig",            status: "read",       note: "really struck with me" },
-    { title: "The Only One Left",            author: "Riley Sager",          status: "reading",    note: "anxiously waiting for the plot twist" },
+    { title: "The Enigma of Room 622", author: "Joël Dicker", status: "read", note: "i'm very obsessed with this author" },
+    { title: "A Little Life", author: "Hanya Yanagihara", status: "want", note: "been on my list forever" },
+    { title: "1984", author: "George Orwell", status: "read", note: "couldn't stop thinking about it for weeks" },
+    { title: "The Psychology of Dexter", author: "Bella DePaulo", status: "reading", note: "trying to learn more about psychology" },
+    { title: "The Midnight Library", author: "Matt Haig", status: "read", note: "really struck with me" },
+    { title: "The Only One Left", author: "Riley Sager", status: "reading", note: "anxiously waiting for the plot twist" },
   ],
 
   // code/personal projects — framed as things, not portfolio entries
@@ -84,10 +84,10 @@ const ME = {
   // things occupying mental space lately
   obsessions: [
     { thing: "the mind of a psychopath", note: "have been watching waaay too much dexter lately" },
-    { thing: "tiny handmade objects",    note: "the feeling of holding something of your own creation" },
-    { thing: "old personal websites",    note: "when the internet felt like people's actual homes" },
+    { thing: "tiny handmade objects", note: "the feeling of holding something of your own creation" },
+    { thing: "old personal websites", note: "when the internet felt like people's actual homes" },
     { thing: "cozy game world-building", note: "the peace of organizing fictional spaces" },
-    { thing: "the color green",          note: "not really 'lately', i would say maybe always" },
+    { thing: "the color green", note: "not really 'lately', i would say maybe always" },
   ],
 
   // short things i keep coming back to — beliefs, reminders, notes to self
@@ -107,11 +107,11 @@ const ME = {
 
   // links out — your other internet homes
   links: [
-    { label: "github",     emoji: "🐙",  url: "https://github.com/gabrielajamhour" },
-    { label: "spotify",    emoji: "🎵",  url: "https://open.spotify.com/user/gabijamhour?si=4a0ef5477aff4d9e" },
-    { label: "skoob",      emoji: "📚",  url: "https://skoob.com.br/profile/6919915-gabi" },
-    { label: "are.na",     emoji: "🗂️",  url: "#" },
-    { label: "instagram",  emoji: "📸",  url: "https://www.instagram.com/gabijamhour?igsh=MTlydXl0Ymt5aWl2bw%3D%3D&utm_source=qr" },
+    { label: "github", emoji: "🐙", url: "https://github.com/gabrielajamhour" },
+    { label: "spotify", emoji: "🎵", url: "https://open.spotify.com/user/gabijamhour?si=4a0ef5477aff4d9e" },
+    { label: "skoob", emoji: "📚", url: "https://skoob.com.br/profile/6919915-gabi" },
+    { label: "are.na", emoji: "🗂️", url: "#" },
+    { label: "instagram", emoji: "📸", url: "https://www.instagram.com/gabijamhour?igsh=MTlydXl0Ymt5aWl2bw%3D%3D&utm_source=qr" },
   ],
 };
 
@@ -120,33 +120,33 @@ const ME = {
 //  DESIGN TOKENS — tweak colors and fonts here
 // ─────────────────────────────────────────────────────────
 const C = {
-  bg:             "#F8F4EE",   // warm cream page background
-  paper:          "#FFFEFB",   // card / surface white
-  ink:            "#2B2520",   // near-black text
-  muted:          "#7C7570",   // secondary text
-  faint:          "#CDC8C1",   // borders, dividers
-  tagBg:          "#EDEBE5",   // tag pill background
+  bg: "#F8F4EE",   // warm cream page background
+  paper: "#FFFEFB",   // card / surface white
+  ink: "#2B2520",   // near-black text
+  muted: "#7C7570",   // secondary text
+  faint: "#CDC8C1",   // borders, dividers
+  tagBg: "#EDEBE5",   // tag pill background
   // accent palette — one per "mood zone"
-  green:          "#7DAF8B",
-  greenSoft:      "#E6F2EB",
-  rose:           "#D9889A",
-  roseSoft:       "#FBEFF2",
-  yellow:         "#E8C86A",
-  yellowSoft:     "#FEF7E0",
-  lavender:       "#A89CC8",
-  lavenderSoft:   "#F0EEF9",
-  sky:            "#87B8D0",
-  skySoft:        "#EAF3F8",
-  sage:           "#8FAF9A",
-  sageSoft:       "#E8F0EB",
+  green: "#7DAF8B",
+  greenSoft: "#E6F2EB",
+  rose: "#D9889A",
+  roseSoft: "#FBEFF2",
+  yellow: "#E8C86A",
+  yellowSoft: "#FEF7E0",
+  lavender: "#A89CC8",
+  lavenderSoft: "#F0EEF9",
+  sky: "#87B8D0",
+  skySoft: "#EAF3F8",
+  sage: "#8FAF9A",
+  sageSoft: "#E8F0EB",
 };
 
 // font stack names — map to Google Fonts loaded in useEffect
 const F = {
   display: "'Fraunces', Georgia, serif",           // warm serif for headings
-  body:    "'Nunito', system-ui, sans-serif",      // rounded, friendly body
-  hand:    "'Caveat', 'Comic Sans MS', cursive",   // handwritten feel for notes
-  mono:    "'JetBrains Mono', monospace",          // tiny metadata labels
+  body: "'Nunito', system-ui, sans-serif",      // rounded, friendly body
+  hand: "'Caveat', 'Comic Sans MS', cursive",   // handwritten feel for notes
+  mono: "'JetBrains Mono', monospace",          // tiny metadata labels
 };
 
 
@@ -293,11 +293,11 @@ function Hero() {
 // ── status / now panel ───────────────────────────────────
 function NowPanel() {
   const fields = [
-    { icon: "✦", label: "feeling",   val: ME.now.feeling   },
+    { icon: "✦", label: "feeling", val: ME.now.feeling },
     { icon: "🎵", label: "listening", val: ME.now.listening },
-    { icon: "🎮", label: "playing",   val: ME.now.playing   },
-    { icon: "📖", label: "reading",   val: ME.now.reading   },
-    { icon: "🧵", label: "making",    val: ME.now.making    },
+    { icon: "🎮", label: "playing", val: ME.now.playing },
+    { icon: "📖", label: "reading", val: ME.now.reading },
+    { icon: "🧵", label: "making", val: ME.now.making },
   ];
   return (
     <section id="now">
@@ -405,11 +405,11 @@ function MusicSection() {
 function MakingSection() {
   // alternating sticky colors
   const palettes = [
-    { color: C.yellowSoft,   border: C.yellow   },
-    { color: C.roseSoft,     border: C.rose     },
+    { color: C.yellowSoft, border: C.yellow },
+    { color: C.roseSoft, border: C.rose },
     { color: C.lavenderSoft, border: C.lavender },
-    { color: C.skySoft,      border: C.sky      },
-    { color: C.sageSoft,     border: C.green    },
+    { color: C.skySoft, border: C.sky },
+    { color: C.sageSoft, border: C.green },
   ];
   // slight rotations for the handmade feel
   const rotations = [-1.5, 1.2, -0.8, 1.8, -1.2];
@@ -653,12 +653,12 @@ function ObsessionsSection() {
 // ── notes to self ────────────────────────────────────────
 function NotesSection() {
   const palettes = [
-    { color: C.yellowSoft,   border: C.yellow   },
-    { color: C.greenSoft,    border: C.green    },
-    { color: C.roseSoft,     border: C.rose     },
+    { color: C.yellowSoft, border: C.yellow },
+    { color: C.greenSoft, border: C.green },
+    { color: C.roseSoft, border: C.rose },
     { color: C.lavenderSoft, border: C.lavender },
-    { color: C.skySoft,      border: C.sky      },
-    { color: C.sageSoft,     border: C.sage     },
+    { color: C.skySoft, border: C.sky },
+    { color: C.sageSoft, border: C.sage },
   ];
   const rotations = [-1.2, 1.5, -0.7, 1.0, -1.8, 0.8];
 
@@ -729,7 +729,7 @@ function PortalsSection() {
   return (
     <section id="portals">
       <SHead icon="🔗" title="portals" sub="other places i live on the internet" />
-      <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center"}}>
+      <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center" }}>
         {ME.links.map((l, i) => (
           <a key={i} href={l.url}
             style={{
@@ -763,6 +763,18 @@ function PortalsSection() {
       </div>
     </section>
   );
+}
+
+// ── last update date ──────────────────────────────────────
+function lastUpdateDate() {
+  const date = new Date();
+
+  const day = date.getDate();
+  const month = date.getMonth() + 1; // The month index starts from 0
+  const year = date.getFullYear();
+
+  let currentDate = `${day}/${month}/${year}`;
+  return (currentDate);
 }
 
 // ─────────────────────────────────────────────────────────
@@ -806,9 +818,9 @@ export default function App() {
         }
       `}</style>
 
-      <main style={{ 
-        maxWidth: 900, 
-        margin: "40px auto", 
+      <main style={{
+        maxWidth: 900,
+        margin: "40px auto",
         padding: "0 24px 80px",
         background: "rgba(248, 244, 238, 0.95)",
         borderRadius: 20,
@@ -883,6 +895,9 @@ export default function App() {
           </p>
           <p style={{ fontFamily: F.mono, fontSize: "0.62rem", color: C.faint }}>
             {ME.name} · {new Date().getFullYear()}
+          </p>
+          <p style={{ fontFamily: F.mono, fontSize: "0.62rem", color: C.faint }}>
+            {ME.name} · {lastUpdateDate()}
           </p>
         </footer>
 
