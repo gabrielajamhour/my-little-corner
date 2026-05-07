@@ -475,7 +475,7 @@ function GamesSection() {
             display: "flex",
             gap: 14,
             padding: "14px 18px",
-            background: C.blue,
+            background: C.sky,
             border: `1.5px solid ${C.sky}`,
             borderRadius: 12,
             alignItems: "flex-start",
