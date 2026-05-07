@@ -765,18 +765,6 @@ function PortalsSection() {
   );
 }
 
-// ── last update date ──────────────────────────────────────
-function lastUpdateDate() {
-  const date = new Date();
-
-  const day = date.getDate();
-  const month = date.getMonth() + 1; // The month index starts from 0
-  const year = date.getFullYear();
-
-  let currentDate = `${day}/${month}/${year}`;
-  return (currentDate);
-}
-
 // ─────────────────────────────────────────────────────────
 //  ROOT APP
 // ─────────────────────────────────────────────────────────
@@ -897,7 +885,7 @@ export default function App() {
             {ME.name} · {new Date().getFullYear()}
           </p>
           <p style={{ fontFamily: F.mono, fontSize: "0.62rem", color: C.faint }}>
-            {ME.name} · {lastUpdateDate()}
+            {"last update: 07/05/2026"}
           </p>
         </footer>
 
