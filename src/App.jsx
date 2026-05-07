@@ -277,7 +277,7 @@ function Hero() {
         fontFamily: F.body,
         fontSize: "1rem",
         color: C.muted,
-        textAlign: "center",
+        textAlign: "justify",
         maxWidth: 450,
         lineHeight: 1.5,
         margin: "18px auto 6px",
