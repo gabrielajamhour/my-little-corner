@@ -390,6 +390,7 @@ function MusicSection() {
               textAlign: "right",
               maxWidth: 170,
               lineHeight: 1.3,
+              whiteSpace: "pre-line",
             }}>
               {t.note}
             </p>
