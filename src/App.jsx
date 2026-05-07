@@ -23,11 +23,11 @@ const ME = {
 
   // songs + a small note on why each matters
   music: [
-    { title: "Último Romance", artist: "Los Hermanos", note: "touches my heart in a special way" },
+    { title: "Último Romance", artist: "Los Hermanos", note: "touches my heart%0D%0Ain a special way" },
     { title: "Lilás", artist: "Terno Rei", note: "actually listening to it while typing this" },
     { title: "Ontem", artist: "Jovem Dionisio", note: "discovered it from tiktok and been obsessed ever since" },
     { title: "Duro Igual Concreto", artist: "1Kilo", note: "singin' with my eyes closed" },
-    { title: "Lisboa", artist: "ANAVITÓRIA and Lenine", note: "can't contain my tears every single time" },
+    { title: "Lisboa", artist: "ANAVITÓRIA and Lenine", note: "can't contain my tears%0D%0Aevery single time" },
     { title: "Sparks", artist: "Coldplay", note: "surprisingly the only international one" },
   ],
 
