@@ -35,7 +35,7 @@ const ME = {
   making: [
     { title: "mario magnet set", type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
     { title: "star wars magnet set", type: "cross-stitch", done: true, note: "a gift for a friend" },
-    { title: "supermarket pricing dashboard", type: "code", done: true, note: "very proud o it actually" },
+    { title: "supermarket pricing dashboard", type: "code", done: true, note: "very proud of it actually" },
     { title: "this website", type: "code", done: false, note: "always in progress" },
   ],
 
