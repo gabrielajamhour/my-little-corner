@@ -35,7 +35,7 @@ const ME = {
   making: [
     { title: "mario magnet set", type: "cross-stitch", done: false, note: "saw on Pinterest and fell in love with it" },
     { title: "star wars magnet set", type: "cross-stitch", done: true, note: "a gift for a friend" },
-    { title: "supermarket pricing dashboard", type: "code", done: false, note: "almost done i hope" },
+    { title: "supermarket pricing dashboard", type: "code", done: true, note: "very proud o it actually" },
     { title: "this website", type: "code", done: false, note: "always in progress" },
   ],
 
@@ -885,7 +885,7 @@ export default function App() {
             {ME.name} · {new Date().getFullYear()}
           </p>
           <p style={{ fontFamily: F.mono, fontSize: "0.62rem", color: C.faint }}>
-            {"last update: 07/05/2026"}
+            {"last update: 08/05/2026"}
           </p>
         </footer>
 
